@@ -41,12 +41,12 @@ const platformImage = new Image();
 const backgroundImage = new Image();
 const bulletImage = new Image();
 const monsterImage = new Image(); // Monster Bild hinzufügen
-doodlerImageLeft.src = 'pics/fox.png';
-doodlerImageRight.src = 'pics/fox.png';
-platformImage.src = 'pics/platform.png';
-backgroundImage.src = 'pics/Background.png';
-bulletImage.src = 'pics/coin.png';
-monsterImage.src = 'pics/chef.png';
+doodlerImageLeft.src = 'fox.png';
+doodlerImageRight.src = 'fox.png';
+platformImage.src = 'platform.png';
+backgroundImage.src = 'Background.png';
+bulletImage.src = 'coin.png';
+monsterImage.src = '/chef.png';
 
 // Plattform und Spieler Physik
 const platformWidth = 65;
